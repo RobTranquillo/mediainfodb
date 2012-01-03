@@ -1,10 +1,10 @@
-***************************************************************************************************
+ ***************************************************************************************************
 
 						MEDIAINFODB
 						   V0.0.1
 
 03.01.2012
-***************************************************************************************************
+ ***************************************************************************************************
 
 This program and source is under GPL Licence.You can use it private and 
 non profit. On change the sourcecode or in case of use in other software 
@@ -26,7 +26,7 @@ them with mediainfo and writes to the database.
 
 
 '''To Insert New MediaInfo To Your DB..'''
-* download and install mediainfo (only the CLI Version!) from <http://mediainfo.sourceforge.net> 
+* download and install mediainfo (only the CLI Version!) from [http://mediainfo.sourceforge.net]
 * unzip mediainfo(CLI) in a directory under mediainfodb to get the mediainfo out of a mediafile and use it with mediainfodb just run the MediaInfo main executable with your mediafile as argument and write it to an textfile..
 ** '''Windows: '''
 *** ''MediaInfo.exe "c:\Videos\myVid.avi" > "c:\mediainfodb\protocolls\myVid.avi.txt"''
