@@ -1,0 +1,10 @@
+root { display: block;}
+.main-color { background-color:#FFF; }
+.rund_DEPR       { -moz-border-radius:9px; -webkit-border-radius:9px; khtml-border-radius:9px; border-radius:10px; }
+.liste      { position: absolute; top:110px; bottom:25px; left:25px; right:25px; padding:8px; }
+.li_file {}
+.border     { border: blue solid 1px; }
+.tinyborder { border: white solid 1px; }
+.tinyfont   { font-size: 75% }
+.footer     { position:absolute; left:6%; bottom:0px; width: 88%; text-align:right; font-family:Garamond; font-size:90%; font-style:italic; }
+.clicklist  { cursor:pointer; }
