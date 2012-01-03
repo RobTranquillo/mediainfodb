@@ -1,0 +1,43 @@
+***************************************************************************************************
+
+						MEDIAINFODB
+						   V0.0.1
+
+03.01.2012
+***************************************************************************************************
+
+This program and source is under GPL Licence.You can use it private and 
+non profit. On change the sourcecode or in case of use in other software 
+projects, please contact me: EADG@wolke7.net
+
+
+MediaInfoDB provides you a website to overview and search the specific 
+formats and codecdata of all of your mediafiles by reading and extract 
+them with mediainfo and writes to the database.
+
+
+'''To Install mediainfodb..'''
+
+* you just have to download and unzip the archive. (or copy the files direktly from github) ..direktly in your webservers directory (e.g. Apache2: htdocs)
+* create all needed tables in your database, use: "mediainfodb.sql.zip"
+* open "db.inc" and enter your database connection and copy the file in mediainfodb directory
+* start your webserver and browse to /mediainfodb .. your done!
+
+
+
+'''To Insert New MediaInfo To Your DB..'''
+* download and install mediainfo (only the CLI Version!) from <http://mediainfo.sourceforge.net> 
+* unzip mediainfo(CLI) in a directory under mediainfodb to get the mediainfo out of a mediafile and use it with mediainfodb just run the MediaInfo main executable with your mediafile as argument and write it to an textfile..
+** '''Windows: '''
+*** ''MediaInfo.exe "c:\Videos\myVid.avi" > "c:\mediainfodb\protocolls\myVid.avi.txt"''
+** '''Unix like: '''
+***  ''MediaInfo "/usr/var/videos/myVid.mp4" > "/usr/var/mediainfodb/protocolls/myVid.mp4.txt"''
+* run mediainfodb and klick "Files einlesen"! Now enter the directory where your 
+* protocolls are located, hit the button "start scan" .. youre done!
+
+Have fun with mediainfodb! 
+
+
+For Questions (english/deutsch): EADG@wolke7.net  
+
+
